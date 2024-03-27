@@ -1,12 +1,12 @@
 # Conversor de Arquivos TXT para PDF em Shell e Python
-### Objetivo
+## Objetivo
 - Automatizar a conversão de arquivos de texto (.txt) para PDF (.pdf) utilizando este script, a empresa pode reduzir drasticamente a necessidade de impressão física. Isso não apenas economiza papel, mas também contribui para a sustentabilidade ambiental, além de agilizar o processo de documentação, pois os documentos podem ser acessados digitalmente, eliminando a necessidade de armazenamento físico e reduzindo a necessidade de impressão de documentos.
 <br> <br/>
 - Em resumo, o script visa não apenas reduzir o consumo de papel, mas também melhorar a eficiência operacional da empresa, facilitando o acesso e a distribuição de documentos, além de contribuir para a sustentabilidade ambiental.
 <br> <br/>
 - O script em questão foi desenvolvido em colaboração com um colega de trabalho, que utiliza COBOL para processar e gerar arquivos de texto (.txt). Esses arquivos são então enviados para uma pasta específica na rede da empresa. O papel do script é monitorar essa pasta de 15 em 15 minutos e, automaticamente, o script vai converter todos os arquivos de texto encontrados para o formato PDF. Garantindo assim uma integração eficiente e eficaz entre os processos de geração de documentos em COBOL e a necessidade de transformar em PDF's.
 
- ### Resumo 
+ ## Resumo 
 - Este script em Bash automatiza a conversão de arquivos de texto que utiliza um script Python para converter arquivos de texto (.txt) em arquivos PDF (.pdf). Ele é útil para processar arquivos de texto e convertê-los em PDF com diferentes configurações de layout, dependendo do conteúdo do arquivo original.
 - O script foi projetado para processar arquivos em dois modos diferentes: retrato e paisagem, dependendo do sufixo do nome do arquivo de entrada.
 - A cada 15 minutos o script bash roda via crontab.
