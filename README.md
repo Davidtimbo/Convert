@@ -19,7 +19,8 @@
 
 ## Uso
 
-### 1. Navegação para o Diretório: O script navega para o diretório onde os arquivos .txt estão localizados. 
+### 1.Navegação para o Diretório: O script navega para o diretório onde os arquivos .txt estão localizados. 
+- O script inicia entrando no servidor remoto usando o LFTP para baixar os arquivos .txt necessários para o diretório local "CONVERTE-TXT". Em seguida, são concedidas permissões aos arquivos .txt baixados para garantir a acessibilidade adequada. Após essa etapa de preparação, o script continua sua execução, convertendo os arquivos .txt em PDFs e movendo-os para uma pasta de destino, onde os consultores da empresa podem acessá-los facilmente.
 
 ### 2. Conversão de Arquivos: O script percorre todos os arquivos .txt no diretório especificado e realiza as seguintes ações:
 - Verificação de Arquivos: O script verifica cada arquivo .txt no diretório. Se o nome do arquivo contém "R.txt", o arquivo será convertido em PDF no modo retrato. Se o nome do arquivo contém "P.txt", o arquivo será convertido em PDF no modo paisagem.
